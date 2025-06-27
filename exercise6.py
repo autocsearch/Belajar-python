@@ -1,15 +1,39 @@
-# Exercise 6: Input Checkpoint
+# 🧩 Exercise 6: Input Checkpoint — Planet Validation
 
-# Goal: Check if the count (X) matches the actual number of values. If not, return -1.
-# Input:
+# Level: Medium
+# Theme: Input validation across multiple test cases
+# 🚀 Story:
 
+# Back on Planet Numara, you’re now trusted to validate multiple alien messages. Each message comes in two lines — but sometimes, the aliens make mistakes! Your job is to validate each message.
+# 📝 Problem:
+
+# You’ll be given several test cases.
+# Each test case consists of:
+#     An integer X on its own line (1 ≤ X ≤ 10)
+#     A line of space-separated integers, supposedly X items long.
+
+# ✅ Your Task:
+#     For each test case:
+#         If the number of integers on the second line matches X, print the list.
+#         If not, print -1.
+# 📥 Input Example:
+
+# 3
+# 5 7 9
+# 2
+# 10 11
 # 4
-# 10 20 30
+# 1 2
 
-# Task:
+# 📤 Output:
 
-#     First line = X = 4
+# [5, 7, 9]
+# [10, 11]
+# -1
 
-#     But there are only 3 numbers
-
-#     Output: -1
+# 🧠 Notes:
+#You can simulate the input as a list of strings (or handle real input() if you want to go advanced).
+#Focus on checking the count for each test case.
+#It’s okay to use loops here — we’ll restrict them later 😉
+# Sleep well, warrior. Planet Numara awaits your return 🌙🪐
+# Let me know when you’re ready to tackle this one.
