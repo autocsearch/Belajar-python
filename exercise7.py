@@ -1,14 +1,41 @@
-# Exercise 7: Power Plant
+# 🧩 Exercise 7: Power Plant
 
-# Goal: Raise each number in a list to the power of 4, and return the sum.
-# Input:
+# Level: Medium
+# Theme: Conditional logic + math
+# ⚡ Story:
 
-# 3
-# 1 2 3
+# You're now managing the alien power plant. Each reactor gives off energy readings. But the readings have a catch — only the negative numbers are useful, and you must calculate the power of 4 for those.
+# 📝 Problem:
 
-# Output:
+# You are given two lines of input:
 
-#     14+24+34=1+16+81=9814+24+34=1+16+81=98
+#     An integer X → the number of values expected
 
-#     Output: 98
+#     A space-separated list of X integers, some may be negative or positive
 
+# ✅ Your Task:
+
+#     Convert all values into integers
+
+#     Ignore all positive numbers
+
+#     For each negative number, raise it to the power of 4: n ** 4
+
+#     Then sum all those powered values
+
+#     If the number of inputs doesn’t match X, print -1
+
+# 📥 Input Example:
+
+# 5
+# -2 3 -1 0 -3
+
+# 📤 Output:
+
+# 98
+
+#     Because:
+#     (-2)^4 = 16
+#     (-1)^4 = 1
+#     (-3)^4 = 81
+#     Sum = 16 + 1 + 81 = 98

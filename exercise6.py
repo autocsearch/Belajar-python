@@ -37,3 +37,16 @@
 #It’s okay to use loops here — we’ll restrict them later 😉
 # Sleep well, warrior. Planet Numara awaits your return 🌙🪐
 # Let me know when you’re ready to tackle this one.
+
+input_line_1 = "2"
+input_line_2 = "5 7 9"
+
+splitWord = input_line_2.split(" ")
+changeWord = int(input_line_1)
+
+wordLen = len(splitWord)
+
+if wordLen == changeWord:
+    print(list(splitWord))
+elif wordLen != changeWord:
+    print(-1)
